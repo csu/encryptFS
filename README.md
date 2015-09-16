@@ -12,3 +12,18 @@ Some quick points:
 
 * Why are the files encrypted separately instead of being put together in blocks? Isn't this a flaw in the security? For now, I'm willing to trade off the security to simplify the code and to allow for easier/quicker decryption of specific individual files.
 * Does this keep my original file metadata? For now, no.
+
+## Usage
+This project is **very** new and this API is **very** subject to change.
+
+```python
+from encryptfs.encryptfs import EncryptFS
+
+encfs = EncryptFS('asdfasdf')
+
+# This will encrypt all new files in the current directory
+encfs.encrypt_all()
+
+# This will decrypt all encrypted files in the index
+encfs.decrypt_all()
+```
