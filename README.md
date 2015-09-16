@@ -16,6 +16,14 @@ Some quick points:
 ## Usage
 This project is **very** new and this API is **very** subject to change.
 
+### Get set up
+```bash
+git clone https://github.com/csu/encryptFS.git
+cd encryptFS
+pip install -r requirements.txt
+```
+
+### Example script
 ```python
 from encryptfs.encryptfs import EncryptFS
 
