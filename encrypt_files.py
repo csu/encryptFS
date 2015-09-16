@@ -1,9 +1,11 @@
-import os, random, struct
+import hashlib, os, random, struct
 from Crypto.Cipher import AES
 
-# From: http://eli.thegreenplace.net/2010/06/25/aes-encryption-of-files-in-python-with-pycrypto/
-# The code in this file is public domain.
+def gen_key(password):
+    return hashlib.sha256(password).digest()
 
+# The code in this file below this line is public domain.
+# From: http://eli.thegreenplace.net/2010/06/25/aes-encryption-of-files-in-python-with-pycrypto/
 def encrypt_file(key, in_filename, out_filename=None, chunksize=64*1024):
     """ Encrypts a file using AES (CBC mode) with the
         given key.
