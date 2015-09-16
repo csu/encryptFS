@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ### Example script
 ```python
-from encryptfs.encryptfs import EncryptFS
+from encryptfs import EncryptFS
 
 # Replace `asdfasdf` with a password
 encfs = EncryptFS('asdfasdf')

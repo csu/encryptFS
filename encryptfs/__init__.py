@@ -1,1 +1,1 @@
-import encryptfs
+from encryptfs import EncryptFS
