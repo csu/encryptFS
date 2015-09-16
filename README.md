@@ -10,5 +10,5 @@ Quick high level overview:
 
 Some quick points:
 
-* Why are the files encrypted separately instead of being put together in blocks? Isn't this a flaw in the security/privacy? I'm willing to trade off the security to simplify the code and to allow for easier/quicker decryption of specific individual files.
+* Why are the files encrypted separately instead of being put together in blocks? Isn't this a flaw in the security? For now, I'm willing to trade off the security to simplify the code and to allow for easier/quicker decryption of specific individual files.
 * Does this keep my original file metadata? For now, no.
