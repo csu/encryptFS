@@ -26,6 +26,7 @@ class EncryptFS:
             os.remove(index_path(directory))
 
         # TODO: bypass temp file
+        # TODO: use cStringIO to decrypt straight to memory
         decrypt_file(self.key, index_path_enc(directory))
         with open(index_path(directory), 'rb') as file:
             index = json.load(file)
