@@ -19,6 +19,7 @@ This project is **very** new and this API is **very** subject to change.
 ```python
 from encryptfs.encryptfs import EncryptFS
 
+# Replace `asdfasdf` with a password
 encfs = EncryptFS('asdfasdf')
 
 # This will encrypt all new files in the current directory
