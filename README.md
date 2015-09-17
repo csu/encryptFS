@@ -37,3 +37,5 @@ encfs.encrypt_all()
 # This will decrypt all encrypted files in the index
 encfs.decrypt_all()
 ```
+
+Have questions or suggestions? [Open an issue.](https://github.com/csu/encryptFS)
