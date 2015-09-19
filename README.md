@@ -39,3 +39,8 @@ encfs.decrypt_all()
 ```
 
 Have questions or suggestions? [Open an issue.](https://github.com/csu/encryptFS)
+
+### CLI
+```bash
+python cli.py <action> <password>
+```
