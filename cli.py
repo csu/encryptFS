@@ -1,5 +1,4 @@
 import click
-
 from encryptfs import EncryptFS
 
 @click.command()
