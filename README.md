@@ -41,6 +41,8 @@ encfs.decrypt_all()
 Have questions or suggestions? [Open an issue.](https://github.com/csu/encryptFS)
 
 ### CLI
+CLI requires the `click` package.
+
 ```bash
 python cli.py <action> <password>
 ```
