@@ -17,7 +17,7 @@ FAQ:
 ## Usage
 This project is **very** new and this API is **very** subject to change.
 
-### Get set up
+### Set up
 ```bash
 git clone https://github.com/csu/encryptFS.git
 cd encryptFS
