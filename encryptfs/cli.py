@@ -15,5 +15,8 @@ def main(action, password):
     else:
         click.echo("Unknown action.")
 
+def cli_entry():
+    main()
+
 if __name__ == '__main__':
     main()
