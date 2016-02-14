@@ -96,7 +96,7 @@ class EncryptFS:
             directory = self.current_dir
             index = self.current_index
         elif (not directory and index) or (directory and not index):
-            raise RuntimeError("Must pass both directory or index or neither")
+            raise RuntimeError("Must pass both directory and index or neither")
         return directory, index
 
     def decrypt_all(self, directory=None, index=None, delete_encrypted=False):
