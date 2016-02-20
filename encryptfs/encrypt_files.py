@@ -1,3 +1,7 @@
+# Batch SMS
+# Christopher J. Su
+# Copyright (c) 2016
+
 import hashlib, os, random, struct
 from Crypto.Cipher import AES
 
