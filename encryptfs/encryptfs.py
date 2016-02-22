@@ -83,10 +83,10 @@ class EncryptFS:
 
     in_index = enc_filenames_for_index(self.current_index)
     not_indexed = [f for f in os.listdir(directory) if (
-            (not f in in_index) and
-            (not f in ignored_files) and
-            (f != 'index.json.enc') and
-            os.path.isfile(os.path.join(directory, f)))]
+                  (not f in in_index) and
+                  (not f in ignored_files) and
+                  (f != 'index.json.enc') and
+                  os.path.isfile(os.path.join(directory, f)))]
 
     for f in not_indexed:
       out_name = gen_random_filename()
